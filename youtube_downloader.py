@@ -19,7 +19,7 @@ def start_download(option):
 
         title.configure(text=ytObject.title, text_color="white")
         finishlabel.configure(text="")
-        video.download()
+        video.download(output_path="E:/BOOST")
         finishlabel.configure(text="Download Complete !!", text_color="green")
 
     except:
